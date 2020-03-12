@@ -17,23 +17,25 @@ struct ItemRow: View {
   ]
   
   var body: some View {
-    HStack {
-      Image(item.thumbnailImage)
-      
-      VStack(alignment: .leading) {
-        Text(item.name)
-        Text(String("$\(item.price)"))
-      }
-      Spacer()
-      
-      ForEach(item.restrictions, id: \.self) { restriction in
-        Text(restriction)
-          .font(.caption)
-          .fontWeight(.black)
-          .padding(5)
-          .background(Self.colors[restriction, default: .black])
-          .clipShape(Circle())
-          .foregroundColor(.white)
+    NavigationLink(destination: ItemDetail(item: item)) {
+      HStack {
+        Image(item.thumbnailImage)
+        
+        VStack(alignment: .leading) {
+          Text(item.name)
+          Text(String("$\(item.price)"))
+        }
+        Spacer()
+        
+        ForEach(item.restrictions, id: \.self) { restriction in
+          Text(restriction)
+            .font(.caption)
+            .fontWeight(.black)
+            .padding(5)
+            .background(Self.colors[restriction, default: .black])
+            .clipShape(Circle())
+            .foregroundColor(.white)
+        }
       }
     }
   }
