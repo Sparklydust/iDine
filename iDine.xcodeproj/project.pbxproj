@@ -18,6 +18,7 @@
 		2A3603A424182CF30058C1F5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3603A324182CF30058C1F5 /* Menu.swift */; };
 		2A3603A624182CFB0058C1F5 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3603A524182CFB0058C1F5 /* Order.swift */; };
 		2A3603A824182D0D0058C1F5 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A3603A724182D0D0058C1F5 /* menu.json */; };
+		2A71BB7F241C2C27001B1711 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A71BB7E241C2C27001B1711 /* OrderView.swift */; };
 		2AD04A02241974B900A02A37 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD04A01241974B900A02A37 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		2A3603A324182CF30058C1F5 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		2A3603A524182CFB0058C1F5 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		2A3603A724182D0D0058C1F5 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		2A71BB7E241C2C27001B1711 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		2AD04A01241974B900A02A37 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				2A3603A524182CFB0058C1F5 /* Order.swift */,
 				2A3603A724182D0D0058C1F5 /* menu.json */,
 				2A36039124182CAC0058C1F5 /* ContentView.swift */,
+				2A71BB7E241C2C27001B1711 /* OrderView.swift */,
 				2AD04A01241974B900A02A37 /* ItemRow.swift */,
 				2A36039324182CAD0058C1F5 /* Assets.xcassets */,
 				2A36039824182CAD0058C1F5 /* LaunchScreen.storyboard */,
@@ -171,6 +174,7 @@
 				2AD04A02241974B900A02A37 /* ItemRow.swift in Sources */,
 				2A36039224182CAC0058C1F5 /* ContentView.swift in Sources */,
 				2A0196E9241AE4650083E593 /* ItemDetail.swift in Sources */,
+				2A71BB7F241C2C27001B1711 /* OrderView.swift in Sources */,
 				2A3603A224182CDE0058C1F5 /* Helper.swift in Sources */,
 				2A3603A424182CF30058C1F5 /* Menu.swift in Sources */,
 			);
