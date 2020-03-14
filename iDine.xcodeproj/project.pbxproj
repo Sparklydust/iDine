@@ -20,6 +20,7 @@
 		2A3603A824182D0D0058C1F5 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A3603A724182D0D0058C1F5 /* menu.json */; };
 		2A71BB7F241C2C27001B1711 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A71BB7E241C2C27001B1711 /* OrderView.swift */; };
 		2ACB8827241D64EC0082EC5B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB8826241D64EC0082EC5B /* AppView.swift */; };
+		2ACB8829241D6C7F0082EC5B /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB8828241D6C7F0082EC5B /* CheckoutView.swift */; };
 		2AD04A02241974B900A02A37 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD04A01241974B900A02A37 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		2A3603A724182D0D0058C1F5 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		2A71BB7E241C2C27001B1711 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		2ACB8826241D64EC0082EC5B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		2ACB8828241D6C7F0082EC5B /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		2AD04A01241974B900A02A37 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				2AD04A01241974B900A02A37 /* ItemRow.swift */,
 				2A0196E8241AE4650083E593 /* ItemDetail.swift */,
 				2ACB8826241D64EC0082EC5B /* AppView.swift */,
+				2ACB8828241D6C7F0082EC5B /* CheckoutView.swift */,
 				2A36039324182CAD0058C1F5 /* Assets.xcassets */,
 				2A36039824182CAD0058C1F5 /* LaunchScreen.storyboard */,
 				2A36039B24182CAD0058C1F5 /* Info.plist */,
@@ -172,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A3603A624182CFB0058C1F5 /* Order.swift in Sources */,
+				2ACB8829241D6C7F0082EC5B /* CheckoutView.swift in Sources */,
 				2A36038E24182CAC0058C1F5 /* AppDelegate.swift in Sources */,
 				2A36039024182CAC0058C1F5 /* SceneDelegate.swift in Sources */,
 				2AD04A02241974B900A02A37 /* ItemRow.swift in Sources */,
