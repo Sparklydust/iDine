@@ -21,6 +21,8 @@ struct CheckoutView: View {
   static let tipAmounts = [10, 15, 20, 25, 0]
   @State private var tipAmount = 1
   
+  @State private var showPaymentAlert = false
+  
   var totalPrice: Double {
     let total = Double(order.total)
     let tipValue = total / 100 * Double(Self.tipAmounts[tipAmount])
@@ -53,14 +55,18 @@ struct CheckoutView: View {
         }.pickerStyle(SegmentedPickerStyle())
         
       }
-        
+      
       Section(header: Text("Total: $\(totalPrice, specifier: "%.2f")")) {
         Button("Confirm order") {
-          
+          self.showPaymentAlert.toggle()
         }
       }
-        
       .navigationBarTitle(Text("Payment"), displayMode: .inline)
+      .alert(isPresented: $showPaymentAlert) {
+        Alert(title: Text("Order Confirmed"),
+              message: Text("Total: $\(totalPrice, specifier: "%.2f")"),
+              dismissButton: .none)
+      }
     }
   }
 }
