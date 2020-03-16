@@ -53,13 +53,14 @@ struct CheckoutView: View {
             Text("\(Self.tipAmounts[$0])%")
           }
         }.pickerStyle(SegmentedPickerStyle())
-        
       }
       
-      Section(header: Text("Total: $\(totalPrice, specifier: "%.2f")")) {
-        Button("Confirm order") {
-          self.showPaymentAlert.toggle()
-        }
+      Section(header:
+        Text("Total: $\(totalPrice, specifier: "%.2f")")
+          .font(.largeTitle)) {
+            Button("Confirm order") {
+              self.showPaymentAlert.toggle()
+            }
       }
       .navigationBarTitle(Text("Payment"), displayMode: .inline)
       .alert(isPresented: $showPaymentAlert) {
